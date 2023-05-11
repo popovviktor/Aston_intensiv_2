@@ -14,7 +14,7 @@
         android:gravity="center"
         android:text="@string/def_count"
         android:textColor="@color/purple_500"
-        android:textSize="160sp"
+        android:textSize="120sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
