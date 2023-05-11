@@ -9,6 +9,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        setOnClickListenersAllButtons()
+    }
+    fun setOnClickListenersAllButtons(){
         val btn_lab1_1 = findViewById<Button>(R.id.btn_lab1_1)
         val btn_lab1_2A = findViewById<Button>(R.id.btn_lab1_2a)
         val btn_lab1_2b = findViewById<Button>(R.id.btn_lab1_2b)
