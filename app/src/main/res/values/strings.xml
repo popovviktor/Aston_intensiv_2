@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">AstonTwo</string>
+    <string name="app_name">HelloConstraint</string>
     <string name="btn_labs_1.1">codelab 1.1</string>
     <string name="btn_labs_1.2A">codelab 1.2A</string>
+    <string name="btn_labs_1.2b">codelab 1.2b</string>
+    <string name="btn_labs_1.2b_zero_btn">zero</string>
     <string name="labs_1.1_tv_hello_world">Hello world</string>
     <string name="labs_1.1_tv_atricle_info">
         Add log for lifecycle CodeLabs1.1Activity and output in activity "hello world" </string>
