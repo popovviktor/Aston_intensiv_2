@@ -1,11 +1,72 @@
 package com.myapplication.astontwo
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        setOnClickListenersAllButtons()
+    }
+    fun setOnClickListenersAllButtons(){
+        val btn_lab1_1 = findViewById<Button>(R.id.btn_lab1_1)
+        val btn_lab1_2A = findViewById<Button>(R.id.btn_lab1_2a)
+        val btn_lab1_2b = findViewById<Button>(R.id.btn_lab1_2b)
+        val btn_lab1_3 = findViewById<Button>(R.id.btn_lab1_3)
+        val btn_lab2_1 = findViewById<Button>(R.id.btn_lab2_1)
+        val btn_lab2_2 = findViewById<Button>(R.id.btn_lab2_2)
+        val btn_lab2_3 = findViewById<Button>(R.id.btn_lab2_3)
+        btn_lab1_1.setOnClickListener {
+            startActivityForLab1_1()
+        }
+        btn_lab1_2A.setOnClickListener {
+            startActivityForLab1_2A()
+        }
+        btn_lab1_2b.setOnClickListener {
+            startActivityForLab1_2b()
+        }
+        btn_lab1_3.setOnClickListener {
+            startActivityForLab1_3()
+        }
+        btn_lab2_1.setOnClickListener {
+            startActivityForLab2_1()
+        }
+        btn_lab2_2.setOnClickListener {
+            startActivityForLab2_2()
+        }
+        btn_lab2_3.setOnClickListener {
+            startActivityForLab2_3()
+        }
+    }
+    fun startActivityForLab1_1(){
+        val intent = Intent(this,CodeLabs1_1Activity::class.java)
+        startActivity(intent)
+    }
+    fun startActivityForLab1_2A(){
+        val intent = Intent(this,CodeLabs1_2AActivity::class.java)
+        startActivity(intent)
+    }
+    fun startActivityForLab1_2b(){
+        val intent = Intent(this,CodeLabs1_2BActivity::class.java)
+        startActivity(intent)
+    }
+    fun startActivityForLab1_3(){
+        val intent = Intent(this,CodeLabs1_3Activity::class.java)
+        startActivity(intent)
+    }
+    fun startActivityForLab2_1(){
+        val intent = Intent(this,CodeLabs2_1Activity::class.java)
+        startActivity(intent)
+    }
+    fun startActivityForLab2_2(){
+        val intent = Intent(this,CodeLabs2_2Activity::class.java)
+        startActivity(intent)
+    }
+    fun startActivityForLab2_3(){
+        val intent = Intent(this,CodeLabs2_3Activity::class.java)
+        startActivity(intent)
     }
 }
