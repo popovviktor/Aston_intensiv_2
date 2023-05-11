@@ -1,9 +1,18 @@
 <resources>
     <string name="app_name">ScrollingText</string>
+    <string name="lab2_1hello">Hello</string>
     <string name="btn_labs_1.1">codelab 1.1</string>
     <string name="btn_labs_1.2A">codelab 1.2A</string>
     <string name="btn_labs_1.2b">codelab 1.2b</string>
     <string name="btn_labs_1.3">codelab 1.3</string>
+    <string name="btn_labs_2.1">codelab 2.1</string>
+    <string name="btn_labs_2.1_btn_text_part_one">open text part one</string>
+    <string name="btn_labs_2.1_btn_text_part_two">open text part two</string>
+    <string name="btn_labs_2.1_btn_text_part_three">open text part three</string>
+    <string name="btn_labs_2.1_btn_say_hello">Say hello</string>
+    <string name="labs_2.1_text_part_one">text part one...</string>
+    <string name="labs_2.1_text_part_two">text part two...</string>
+    <string name="labs_2.1_text_part_three">text part three...</string>
     <string name="btn_labs_1.2b_zero_btn">zero</string>
     <string name="labs_1.1_tv_hello_world">Hello world</string>
     <string name="labs_1.1_tv_atricle_info">

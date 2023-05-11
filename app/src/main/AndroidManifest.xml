@@ -13,6 +13,34 @@
         android:theme="@style/Theme.AstonTwo"
         tools:targetApi="31">
         <activity
+            android:name=".CodeLabs2_1say_helloActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CodeLabs2_1_homework"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CodeLabs2_1_open_part_text_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CodeLabs2_1Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".CodeLabs1_3Activity"
             android:exported="false">
             <meta-data

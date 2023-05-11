@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         val btn_lab1_2A = findViewById<Button>(R.id.btn_lab1_2a)
         val btn_lab1_2b = findViewById<Button>(R.id.btn_lab1_2b)
         val btn_lab1_3 = findViewById<Button>(R.id.btn_lab1_3)
+        val btn_lab2_1 = findViewById<Button>(R.id.btn_lab2_1)
         btn_lab1_1.setOnClickListener {
             startActivityForLab1_1()
         }
@@ -24,6 +25,9 @@ class MainActivity : AppCompatActivity() {
         }
         btn_lab1_3.setOnClickListener {
             startActivityForLab1_3()
+        }
+        btn_lab2_1.setOnClickListener {
+            startActivityForLab2_1()
         }
     }
     fun startActivityForLab1_1(){
@@ -40,6 +44,9 @@ class MainActivity : AppCompatActivity() {
     }
     fun startActivityForLab1_3(){
         val intent = Intent(this,CodeLabs1_3Activity::class.java)
+        startActivity(intent)
+    }fun startActivityForLab2_1(){
+        val intent = Intent(this,CodeLabs2_1Activity::class.java)
         startActivity(intent)
     }
 }
