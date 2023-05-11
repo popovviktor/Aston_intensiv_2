@@ -13,19 +13,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         Log.d("ActivityCycle","create")
         setContentView(R.layout.activity_main)
-        val tv = findViewById<TextView>(R.id.show_count)
-        val btn_count = findViewById<Button>(R.id.button_count)
-        val btn_toast = findViewById<Button>(R.id.button_toast)
-        tv.text = "Happy Bithday!"
-        tv.text = mcount.toString()
 
-        btn_toast.setOnClickListener {
-            Toast.makeText(this,R.string.toast_message,Toast.LENGTH_LONG).show()
-        }
-        btn_count.setOnClickListener {
-            mcount++
-            tv.text = mcount.toString()
-        }
+
 
     }
 
