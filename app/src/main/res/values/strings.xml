@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">AstonTwo</string>
+    <string name="app_name">HelloConstraint</string>
     <string name="btn_toast">Toast</string>
     <string name="btn_count">Count</string>
     <string name="def_count">0</string>
     <string name="toast_message">Hello Toast!</string>
+    <string name="btn_zero">zero</string>
 </resources>
