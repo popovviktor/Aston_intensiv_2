@@ -3,9 +3,12 @@ package com.myapplication.astontwo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.MenuItem
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import android.widget.Toolbar
+import com.google.android.material.appbar.MaterialToolbar
 
 class MainActivity : AppCompatActivity() {
     private var mcount = 0
@@ -13,7 +16,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         Log.d("ActivityCycle","create")
         setContentView(R.layout.activity_main)
-
+        val menu = findViewById<androidx.appcompat.widget.Toolbar>(R.id.my_toolbar)
+        menu.setOnMenuItemClickListener {
+            when(it.itemId){
+                R.id.action_settings->{
+                    println("settings")
+                    return@setOnMenuItemClickListener true
+                }
+                R.id.action_favorite ->{
+                    println("favorite action")
+                    return@setOnMenuItemClickListener true
+                }
+                else ->{return@setOnMenuItemClickListener false}
+            }
+        }
 
 
     }

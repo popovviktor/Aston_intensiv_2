@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ScrollingText</string>
+    <string name="app_name">New Application</string>
     <string name="btn_toast">Toast</string>
     <string name="btn_count">Count</string>
     <string name="def_count">0</string>
@@ -29,4 +29,6 @@ This volume starts with the first new Beatle song, “Free as a Bird” (based o
 <b><i>One After 909</i></b> — A song recorded for the <i>Let It Be</i> album was actually worked on way back in the beginning, six years earlier. This take shows how they did it much more slowly, with an R&amp;B feel to it.
 </string>
     <string name="btn_add_comment">add comment</string>
+    <string name="action_favorite">actionfavorite</string>
+    <string name="action_settings">settings</string>
 </resources>
